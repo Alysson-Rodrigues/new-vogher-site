@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 interface IconGalleryProps {
@@ -11,7 +12,7 @@ function IconGallery({ companies }: IconGalleryProps) {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
         {companies.map((company) => (
           <div key={company.name} className="flex justify-center items-center">
-            <img src={company.iconUrl} alt={company.name} className="w-24 h-24" />
+            <Image src={company.iconUrl} alt={company.name} className="w-24 h-24" />
           </div>
         ))}
       </div>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 interface HeaderProps {
@@ -12,7 +13,7 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="/">
               <span className="sr-only">{title}</span>
-              <img className="h-8 w-auto sm:h-10 hover:scale-125 transition duration-500 ease-in-out" src="https://www.vogher.tech/favicon.ico" alt="Logo" />
+              <Image className="h-8 w-auto sm:h-10 hover:scale-125 transition duration-500 ease-in-out" src="https://www.vogher.tech/favicon.ico" width={50} height={50} alt="Logo" />
             </a>
           </div>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">

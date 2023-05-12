@@ -1,9 +1,8 @@
 'use client'
-import Badge from './components/Badge';
 import Banner from './components/Banner'
-import IconGallery from './components/IconGallery';
 import Header from './components/Header'
 import RocketLaunchSharpIcon from '@mui/icons-material/RocketLaunchSharp';
+import Image from 'next/image';
 
 export default function Page() {
   return (
@@ -42,7 +41,7 @@ export default function Page() {
         
           </div>
           <div className="lg:w-1/2 w-full">
-          <img src="/logo.svg" className="w-full h-full" height={"300px"} />
+          <Image alt='' src="/logo.svg" className="w-full h-full" height={300} width={300} />
           </div>
         </div>
 
