@@ -60,7 +60,7 @@ export default function Page() {
 
       </div>
       <SquaredOverlayBanner imagePath='/assets/backgrounds/7.svg' height='100vh' childrenContainerClassName="p-16 lg:p-0 lg:px-8 lg:flex-col flex justify-start items-center">
-      <div className="w-full p-16 z-10">
+      <div className="p-16 z-10">
           <h2 className="text-6xl text-black font-base-neue-bold text-center lg:text-center bg-white">Design matters... we can handle it.</h2>
           <p className="text-3xl text-black font-base-neue-regular text-center lg:text-center bg-white">We count on the best on the design market to find the best solution for you</p>
         </div>
