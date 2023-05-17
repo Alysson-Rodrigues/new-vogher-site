@@ -14,7 +14,7 @@ export default function Page() {
       <Header
         title='Vogher'
       />
-      <Banner imagePath='/assets/backgrounds/5.png' height='100vh' childrenContainerClassName="p-16 lg:p-0 lg:px-8 lg:flex-col flex justify-end">
+      <Banner imagePath='/assets/backgrounds/8.png' height='100vh' childrenContainerClassName="p-16 lg:p-0 lg:px-8 lg:flex-col flex justify-end">
         <div className="hidden lg:flex justify-between items-center lg:items-start mb-12 backdrop-blur-lg p-4 rounded-md border-slate-100 border-solid border-[0.2px]">
           <div>
             <h1 className="text-2xl font-base-neue-bold text-center lg:mb-0 hidden lg:flex lg:text-4xl lg:text-left">Your apps faster than ever.</h1>
