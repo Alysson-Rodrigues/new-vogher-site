@@ -11,11 +11,11 @@ interface Props {
   mainContainerClassName?: string;
 }
 
-function Banner({ children, childrenContainerClassName, mainContainerClassName, height, imagePath, backgroundColor = 'gray', textColor = 'white' }: Props) {
+function Banner({ children, childrenContainerClassName, mainContainerClassName, height, imagePath, textColor = 'white' }: Props) {
   return (
     <div
     className={`relative w-full banner ${mainContainerClassName}`}
-      style={{ backgroundColor, color: textColor, height: height ?? '50vh',
+      style={{ color: textColor, height: height ?? '50vh',
      }}
     >
       <Image
