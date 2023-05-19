@@ -98,7 +98,7 @@ export default function Page() {
             textClassName='text-white'
             title='Modern ecossystem'
             description='Since design to code, we use new generation AI tools to make this process faster, more efficient and cheaper.'
-            imageUrl='/assets/backgrounds/toolchain.png'
+            imageUrl='/assets/img/toolchain.png'
             preventDefault
           />
         </div>
