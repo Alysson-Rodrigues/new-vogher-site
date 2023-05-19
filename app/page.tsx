@@ -63,7 +63,7 @@ export default function Page() {
             textClassName='text-white'
             title='Requisits gathering'
             description="We look at your business deeply, to understand what you need and what you don't."
-            imageUrl='/assets/backgrounds/6.png'
+            imageUrl='/assets/img/requisitesGathering.png'
             preventDefault
           />
           <Badge
@@ -71,7 +71,7 @@ export default function Page() {
             textClassName='text-white'
             title='We care about design'
             description='Design is the first thing your customers see... and we know that a lot of software houses seems to not know it. Not here, We make your apps beautiful and functional.'
-            imageUrl='/assets/backgrounds/6.png'
+            imageUrl='/assets/img/design.png'
             preventDefault
           />
           <Badge
@@ -79,7 +79,7 @@ export default function Page() {
             textClassName='text-white'
             title='Task management'
             description='We split the work into tasks, to make it easier to manage. You can follow the progress of each task in real time.'
-            imageUrl='/assets/backgrounds/6.png'
+            imageUrl='/assets/img/tasks.png'
             preventDefault
           />
 
@@ -88,17 +88,17 @@ export default function Page() {
           <Badge
             className='w-[30%] bg-[#151515] '
             textClassName='text-white'
-            title='Secure Approach'
-            description='From contact to delivery, we always use secure the best practices to protect your data and your business.'
-            imageUrl='/assets/backgrounds/6.png'
+            title='Anonnymous Approach'
+            description='From contact to delivery, we protect your data at any situation, and that can include your identity.'
+            imageUrl='/assets/img/anonnymous.png'
             preventDefault
           />
           <Badge
             className='w-[30%] bg-[#151515] h-full mx-8'
             textClassName='text-white'
-            title='Modern toolchain'
+            title='Modern ecossystem'
             description='Since design to code, we use new generation AI tools to make this process faster, more efficient and cheaper.'
-            imageUrl='/assets/backgrounds/6.png'
+            imageUrl='/assets/backgrounds/toolchain.png'
             preventDefault
           />
         </div>
