@@ -33,7 +33,7 @@ export default function Page() {
           <RocketLaunchSharpIcon className="text-white text-4xl self-center" />
         </div>
       </Banner>
-      <div className="lg:flex-row flex items-center justify-center bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url("/4.png")' }}>
+      <div className="lg:flex-row flex items-center justify-center bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url("/assets/backgrounds/4.png")' }}>
       <div className="hidden m-8 lg:flex justify-between items-center lg:items-start mb-12 backdrop-blur-lg p-4 rounded-md border-white border-solid border-[0.2px]">
           <div>
             <h1 className="text-2xl text-white font-base-neue-bold text-center lg:mb-0 hidden lg:flex lg:text-4xl lg:text-left">Who we are</h1>
