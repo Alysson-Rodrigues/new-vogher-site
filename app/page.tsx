@@ -115,7 +115,7 @@ export default function Page() {
             />
           </div>
         </div>
-        {/* Div with blurry background */}
+        <div>
         <div
         style={
           {
@@ -175,6 +175,7 @@ export default function Page() {
             />
           </div>
         </div>
+      </div>
       </div>
       <div className="flex flex-col lg:flex-row justify-center items-center bg-black text-white p-8">
         <div className="flex flex-col justify-center items-center lg:items-start">
