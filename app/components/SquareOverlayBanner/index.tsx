@@ -28,10 +28,12 @@ function SquaredOverlayBanner({
   return (
     <div
       className={`relative w-full banner ${mainContainerClassName}`}
-      style={{height: height ?? '50vh' }}
+      style={{
+        height: height ?? '100%',
+        backgroundImage: `url(${imagePath})`,
+      }}
       onMouseMove={handleMouseMove}
     >
-      <Image src={imagePath} alt="Banner background" layout="fill" objectFit="cover" />
       <div
         className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden"
 
@@ -46,10 +48,9 @@ function SquaredOverlayBanner({
             }}
           />
       </div>
-      <div className={`absolute top-0 left-0 w-full h-full flex ${childrenContainerClassName}`}>
+      <div className={`absolute top-0 left-0 flex ${childrenContainerClassName}`}>
         {children}
       </div>
-
     </div>
   );
 }

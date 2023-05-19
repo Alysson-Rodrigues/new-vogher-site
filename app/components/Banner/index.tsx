@@ -14,7 +14,7 @@ interface Props {
 function Banner({ children, childrenContainerClassName, mainContainerClassName, height, imagePath, textColor = 'white' }: Props) {
   return (
     <div
-    className={`relative w-full banner ${mainContainerClassName}`}
+    className={`relative w-full h-fit banner ${mainContainerClassName}`}
       style={{ color: textColor, height: height ?? '50vh',
      }}
     >

@@ -3,13 +3,12 @@ import Banner from './components/Banner'
 import Header from './components/Header'
 import RocketLaunchSharpIcon from '@mui/icons-material/RocketLaunchSharp';
 import Image from 'next/image';
-import SquaredOverlayBanner from './components/SquareOverlayBanner';
 import Badge from './components/Badge';
 
 
 export default function Page() {
   return (
-
+    <>
     <div>
       <Header
         title='Vogher'
@@ -34,7 +33,7 @@ export default function Page() {
           <RocketLaunchSharpIcon className="text-white text-4xl self-center" />
         </div>
       </Banner>
-      <div className="lg:flex-row flex items-center justify-center bg-no-repeat bg-cover bg-center" style={{backgroundImage: 'url("/logo.svg")'}}>
+      <div className="lg:flex-row flex items-center justify-center bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url("/logo.svg")' }}>
         <div className="p-16 w-full">
           <h2 className="text-4xl text-black bg-white border-4 border-black font-base-neue-bold text-center lg:text-center p-3">Who we are</h2>
           <p className="text-2xl text-black bg-white border-4 border-black font-base-neue-regular text-center lg:text-center p-3">The software/creative team you need to go deeper. We put our hands on the cutting edge tech stuff for you, in order to keep you safe and flying</p>
@@ -52,7 +51,14 @@ export default function Page() {
             With us, you're ensured to have the latest security practices ever.</p>
         </div>
       </div>
-      <SquaredOverlayBanner imagePath='/assets/backgrounds/7.svg' height='100vh' childrenContainerClassName="p-16 lg:p-0 lg:px-8 lg:flex-col flex justify-start items-center">
+      <div style={
+        {
+          backgroundImage: 'url("/assets/backgrounds/7.svg")',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }
+      } className="p-16 lg:p-0 lg:px-8 lg:flex-col flex justify-start items-center">
         <div className="p-8 z-10 bg-white -mt-[75px] mb-4 border-4 border-black rounded-md">
           <h2 className="text-4xl text-black  font-base-neue-bold text-center lg:text-center border-spacing-2">We make it seems like we are working on easy mode!</h2>
           <p className="text-2xl text-black font-base-neue-regular text-center lg:text-center">We count on the best professionals and toolchains, to make your app atractive and profitable.</p>
@@ -102,7 +108,18 @@ export default function Page() {
             preventDefault
           />
         </div>
-      </SquaredOverlayBanner>
-    </div>
-  )
+      </div>
+      </div>
+            <div className="flex flex-col lg:flex-row justify-center items-center bg-black text-white p-8">
+            <div className="flex flex-col justify-center items-center lg:items-start">
+              <h2 className="text-2xl font-base-neue-bold text-center lg:text-left">Vogher</h2>
+              <p className="text-xl font-base-neue-regular text-center lg:text-left">The future of IA is next to you</p>
+            </div>
+            <div className="flex flex-col justify-center items-center lg:items-end">
+              <p className="text-xl font-base-neue-regular text-center lg:text-right">CNPJ: 49.260.491/0001-07</p>
+              <p className="text-xl font-base-neue-regular text-center lg:text-right">All rights reserved</p>
+            </div>
+          </div>
+        </>
+      )
 }
