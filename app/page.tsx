@@ -34,27 +34,17 @@ export default function Page() {
         </div>
       </Banner>
       <div className="lg:flex-row flex items-center justify-center bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url("/logo.svg")' }}>
-      <div className="hidden lg:flex justify-between items-center lg:items-start mb-12 backdrop-blur-lg p-4 rounded-md border-white border-solid border-[0.2px]">
+      <div className="hidden m-4 lg:flex justify-between items-center lg:items-start mb-12 backdrop-blur-lg p-4 rounded-md border-white border-solid border-[0.2px]">
           <div>
             <h1 className="text-2xl text-white font-base-neue-bold text-center lg:mb-0 hidden lg:flex lg:text-4xl lg:text-left">Who we are</h1>
             <h2 className="text-1xl text-white font-base-neue-regular text-center  hidden lg:flex lg:text-3xl lg:text-left">The software/creative team you need to go deeper. We put our hands on the cutting edge tech stuff for you, in order to keep you safe and flying</h2>
           </div>
-          <RocketLaunchSharpIcon className="text-white cursor-pointer text-4xl self-center mr-6" onClick={
-            () => {
-              window.location.href = '/about'
-            }
-          } />
         </div>
-        <div className="hidden lg:flex justify-between items-center lg:items-start mb-12 backdrop-blur-lg p-4 rounded-md border-black border-solid border-[0.2px]">
+        <div className="hidden m-4 lg:flex justify-between items-center lg:items-start mb-12 backdrop-blur-lg p-4 rounded-md border-black border-solid border-[0.2px]">
           <div>
             <h1 className="text-2xl text-black font-base-neue-bold text-center lg:mb-0 hidden lg:flex lg:text-4xl lg:text-left">What we do.</h1>
             <h2 className="text-1xl text-black font-base-neue-regular text-center  hidden lg:flex lg:text-3xl lg:text-left">We build web applications to all purposes, since corporative management systems to digital portfolios.</h2>
           </div>
-          <RocketLaunchSharpIcon className="text-black cursor-pointer text-4xl self-center mr-6" onClick={
-            () => {
-              window.location.href = '/about'
-            }
-          } />
         </div>
       </div>
       <div className="lg:pl-20 lg:flex-row flex items-center ">
