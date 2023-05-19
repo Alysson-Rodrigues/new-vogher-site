@@ -65,8 +65,8 @@ export default function Page() {
         <div className="w-full flex p-8 justify-center">
 
           <Badge
-            className='w-[35%] bg-[#151515] h-96'
-            textColor='#ffffff'
+            className='w-[30%] bg-[#151515] h-96'
+            textClassName='text-white'
             imageClassName='h-[70%]'
             title='Requisits gathering'
             description="We look at your business deeply, to understand what you need and what you don't."
@@ -74,8 +74,8 @@ export default function Page() {
             preventDefault
           />
           <Badge
-            className='w-[35%] bg-[#151515] mx-8'
-            textColor='#ffffff'
+            className='w-[40%] bg-[#151515] mx-8'
+            textClassName='text-white'
             imageClassName='h-[70%]'
             title='We care about design'
             description='Design is the first thing your customers see... and we know that a lot of software houses seems to not know it. Not here, We make your apps beautiful and functional.'
@@ -83,8 +83,8 @@ export default function Page() {
             preventDefault
           />
           <Badge
-            className='w-[35%] bg-[#151515] h-96 '
-            textColor='#ffffff'
+            className='w-[30%] bg-[#151515] h-96 '
+            textClassName='text-white'
             imageClassName='h-[70%]'
             title='Task management'
             description='We split the work into tasks, to make it easier to manage. You can follow the progress of each task in real time.'
@@ -96,7 +96,7 @@ export default function Page() {
         <div className="w-full flex p-8 pt-4 justify-center">
           <Badge
             className='w-[30%] bg-[#151515] h-96'
-            textColor='#ffffff'
+            textClassName='text-white'
             imageClassName='h-[70%]'
             title='Secure Approach'
             description='From contact to delivery, we always use secure the best practices to protect your data and your business.'
@@ -105,7 +105,7 @@ export default function Page() {
           />
           <Badge
             className='w-[30%] bg-[#151515] h-96 mx-8'
-            textColor='#ffffff'
+            textClassName='text-white'
             imageClassName='h-[70%]'
             title='Modern toolchain'
             description='Since design to code, we use new generation AI tools to make this process faster, more efficient and cheaper.'
