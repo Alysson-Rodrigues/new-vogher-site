@@ -48,23 +48,19 @@ export default function Page() {
         </div>
         <div className="lg:w-1/2 w-full p-16">
           <h2 className="text-4xl text-black font-base-neue-bold text-center lg:text-left">Born to fire</h2>
-          <p className="text-2xl text-black font-base-neue-regular text-center lg:text-left">We know that there is a war under your feets. Your applications need to be secure everywhere, but attackers needs only ONE poit to attack.
+          <p className="text-2xl text-black font-base-neue-regular text-center lg:text-left">We know that there is a war under your feets. Your applications need to be secure everywhere, but attackers needs only ONE point to attack.
             With us, you're ensured to have the latest security practices ever.</p>
         </div>
       </div>
-      <div className="p-16 lg:p-0 lg:px-8 lg:flex-col flex justify-start items-center">
-      </div>
-      <SquaredOverlayBanner imagePath='/assets/backgrounds/7.svg' height='100vh' childrenContainerClassName="p-16 lg:p-0 lg:px-8 lg:flex-col flex justify-start items-center ">
-        <div className="p-8 z-10 bg-white mt-8 mb-4 border-4 border-black rounded-md">
-          <h2 className="text-4xl text-black font-base-neue-bold text-center lg:text-center border-spacing-2">We make it seems like we are working on easy mode!</h2>
+      <SquaredOverlayBanner imagePath='/assets/backgrounds/7.svg' height='100vh' childrenContainerClassName="p-16 lg:p-0 lg:px-8 lg:flex-col flex justify-start items-center">
+        <div className="p-8 z-10 bg-white -mt-[75px] mb-4 border-4 border-black rounded-md">
+          <h2 className="text-4xl text-black  font-base-neue-bold text-center lg:text-center border-spacing-2">We make it seems like we are working on easy mode!</h2>
           <p className="text-2xl text-black font-base-neue-regular text-center lg:text-center">We count on the best professionals and toolchains, to make your app atractive and profitable.</p>
         </div>
         <div className="w-full flex p-8 justify-center">
-
           <Badge
-            className='w-[30%] bg-[#151515] h-96'
+            className='w-[30%] bg-[#151515]'
             textClassName='text-white'
-            imageClassName='h-[70%]'
             title='Requisits gathering'
             description="We look at your business deeply, to understand what you need and what you don't."
             imageUrl='/assets/backgrounds/6.png'
@@ -73,16 +69,14 @@ export default function Page() {
           <Badge
             className='w-[40%] bg-[#151515] mx-8'
             textClassName='text-white'
-            imageClassName='h-[70%]'
             title='We care about design'
             description='Design is the first thing your customers see... and we know that a lot of software houses seems to not know it. Not here, We make your apps beautiful and functional.'
             imageUrl='/assets/backgrounds/6.png'
             preventDefault
           />
           <Badge
-            className='w-[30%] bg-[#151515] h-96 '
+            className='w-[30%] bg-[#151515]  '
             textClassName='text-white'
-            imageClassName='h-[70%]'
             title='Task management'
             description='We split the work into tasks, to make it easier to manage. You can follow the progress of each task in real time.'
             imageUrl='/assets/backgrounds/6.png'
@@ -92,18 +86,16 @@ export default function Page() {
         </div>
         <div className="w-full flex p-8 pt-4 justify-center">
           <Badge
-            className='w-[30%] bg-[#151515] h-96'
+            className='w-[30%] bg-[#151515] '
             textClassName='text-white'
-            imageClassName='h-[70%]'
             title='Secure Approach'
             description='From contact to delivery, we always use secure the best practices to protect your data and your business.'
             imageUrl='/assets/backgrounds/6.png'
             preventDefault
           />
           <Badge
-            className='w-[30%] bg-[#151515] h-96 mx-8'
+            className='w-[30%] bg-[#151515] h-full mx-8'
             textClassName='text-white'
-            imageClassName='h-[70%]'
             title='Modern toolchain'
             description='Since design to code, we use new generation AI tools to make this process faster, more efficient and cheaper.'
             imageUrl='/assets/backgrounds/6.png'

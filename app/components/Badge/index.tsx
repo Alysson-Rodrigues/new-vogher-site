@@ -35,7 +35,7 @@ function Badge({ title, description, imageUrl, badgeBackground, className, onMou
             }
         }
         >
-            <div className={`h-40 bg-cover bg-center ${imageClassName}`} style={{ backgroundImage: `url(${imageUrl})` }}></div>
+            <div className={`bg-cover bg-center ${imageClassName} h-[300px]`} style={{ backgroundImage: `url(${imageUrl})` }}></div>
             <div className="p-4">
                 <h3 className={`font-bold text-2xl text-[${textClassName}] font-base-neue-bold mb-2`}>{title}</h3>
                 <p className={`font-base-neue-regular mb-4 ${textClassName}`}>{description}</p>
