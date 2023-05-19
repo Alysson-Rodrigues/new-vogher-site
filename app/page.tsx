@@ -34,15 +34,12 @@ export default function Page() {
           <RocketLaunchSharpIcon className="text-white text-4xl self-center" />
         </div>
       </Banner>
-      <div className="lg:pl-20 lg:flex-row flex items-center">
+      <div className="lg:pl-20 lg:flex-row flex items-center justify-center bg-no-repeat bg-cover bg-center " style={{backgroundImage: 'url("/logo.svg")'}}>
         <div className="lg:w-1/2 p-16 w-1/2">
-          <h2 className="text-4xl text-black font-base-neue-bold text-center lg:text-right">What is Vogher</h2>
-          <p className="text-2xl text-black font-base-neue-regular text-center lg:text-right">The software/creative team you need to go deeper. We put our hands on the cutting edge tech stuff for you, in order to keep you safe and flying</p>
-          <h2 className="text-4xl text-black font-base-neue-bold mt-6 text-center lg:text-right">What we do</h2>
-          <p className="text-2xl text-black font-base-neue-regular text-center lg:text-right">We build web applications to all purposes, since corporative management systems to digital portfolios.</p>
-        </div>
-        <div className="lg:w-1/2 hidden lg:flex">
-          <Image alt='' src="/logo.svg" className="w-full h-full" height={300} width={300} />
+          <h2 className="text-4xl text-black bg-white font-base-neue-bold text-center lg:text-center">Who we are</h2>
+          <p className="text-2xl text-black bg-white font-base-neue-regular text-center lg:text-center">The software/creative team you need to go deeper. We put our hands on the cutting edge tech stuff for you, in order to keep you safe and flying</p>
+          <h2 className="text-4xl text-black bg-white font-base-neue-bold mt-6 text-center lg:text-center">What we do</h2>
+          <p className="text-2xl text-black bg-white font-base-neue-regular text-center lg:text-center">We build web applications to all purposes, since corporative management systems to digital portfolios.</p>
         </div>
       </div>
       <div className="lg:pl-20 lg:flex-row flex items-center ">
@@ -58,7 +55,7 @@ export default function Page() {
       <div className="p-16 lg:p-0 lg:px-8 lg:flex-col flex justify-start items-center">
       </div>
       <SquaredOverlayBanner imagePath='/assets/backgrounds/7.svg' height='100vh' childrenContainerClassName="p-16 lg:p-0 lg:px-8 lg:flex-col flex justify-start items-center ">
-        <div className="p-8 z-10 bg-white mt-8 border-4-black">
+        <div className="p-8 z-10 bg-white mt-8 mb-4 border-4 border-black rounded-md">
           <h2 className="text-4xl text-black font-base-neue-bold text-center lg:text-center border-spacing-2">We make it seems like we are working on easy mode!</h2>
           <p className="text-2xl text-black font-base-neue-regular text-center lg:text-center">We count on the best professionals and toolchains, to make your app atractive and profitable.</p>
         </div>
