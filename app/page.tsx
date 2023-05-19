@@ -15,12 +15,12 @@ export default function Page() {
         title='Vogher'
       />
       <Banner imagePath='/assets/backgrounds/8.png' height='100vh' childrenContainerClassName="p-16 lg:p-0 lg:px-8 lg:flex-col flex justify-end">
-        <div className="hidden lg:flex justify-between items-center lg:items-start mb-12 backdrop-blur-lg p-4 rounded-md border-slate-100 border-solid border-[0.2px]">
+        <div className="hidden lg:flex justify-between items-center lg:items-start mb-12 backdrop-blur-lg p-4 rounded-md border-black border-solid border-[0.2px]">
           <div>
-            <h1 className="text-2xl font-base-neue-bold text-center lg:mb-0 hidden lg:flex lg:text-4xl lg:text-left">Your apps faster than ever.</h1>
-            <h2 className="text-1xl font-base-neue-regular text-center  hidden lg:flex lg:text-3xl lg:text-left">With Vogher, the future of IA is next to you</h2>
+            <h1 className="text-2xl text-black font-base-neue-bold text-center lg:mb-0 hidden lg:flex lg:text-4xl lg:text-left">Your apps faster than ever.</h1>
+            <h2 className="text-1xl text-black font-base-neue-regular text-center  hidden lg:flex lg:text-3xl lg:text-left">With Vogher, the future of IA is next to you</h2>
           </div>
-          <RocketLaunchSharpIcon className="text-white cursor-pointer text-4xl self-center mr-6" onClick={
+          <RocketLaunchSharpIcon className="text-black cursor-pointer text-4xl self-center mr-6" onClick={
             () => {
               window.location.href = '/about'
             }
