@@ -17,10 +17,10 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
             </a>
           </div>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <a href="#" className="text-2xl font-base-neue-bold uppercase text-slate-300 hover:text-white transition duration-500 ease-in-out">
+            <a href="#" className="text-2xl font-base-neue-bold uppercase text-slate-800 hover:text-black transition duration-500 ease-in-out">
               About
             </a>
-            <a href="#" className="ml-8 text-2xl font-base-neue-bold uppercase text-slate-300 hover:text-white transition duration-500 ease-in-out">
+            <a href="#" className="ml-8 text-2xl font-base-neue-bold uppercase text-slate-800 hover:text-white transition duration-500 ease-in-out">
               Contact
             </a>
           </div>
